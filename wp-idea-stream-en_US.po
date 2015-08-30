@@ -1,0 +1,1799 @@
+# Copyright (C) 2015 WP Idea Stream
+# This file is distributed under the same license as the WP Idea Stream package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Idea Stream 2.1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp-idea-stream\n"
+"POT-Creation-Date: 2015-04-20 20:01:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-08-24 22:11-0400\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: includes/admin/admin.php:254 includes/admin/admin.php:255
+#: includes/admin/admin.php:269 includes/admin/admin.php:270
+#: includes/admin/admin.php:1781
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin.php:301 includes/admin/admin.php:302
+#: includes/admin/admin.php:309 includes/admin/admin.php:310
+msgid "Welcome to WP Idea Stream"
+msgstr "Welcome to WP Inquiry Stream. A fork of IdeaStream."
+
+#: includes/admin/admin.php:475
+msgid "Idea updated. <a href=\"%s\">View idea</a>"
+msgstr "Inquiry Question updated. <a href=\"%s\">View Inquiry Question</a>"
+
+#: includes/admin/admin.php:476
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/admin.php:477
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/admin/admin.php:478
+msgid "Idea updated."
+msgstr "Inquiry question updated."
+
+#: includes/admin/admin.php:479
+msgid "Idea restored to revision from %s"
+msgstr "Inquiry question restored to revision from %s"
+
+#: includes/admin/admin.php:480
+msgid "Idea published. <a href=\"%s\">View idea</a>"
+msgstr "Inquiry question published. <a href=\"%s\">View inquiry question</a>"
+
+#: includes/admin/admin.php:481
+msgid "Idea saved."
+msgstr "Inquiry question saved."
+
+#: includes/admin/admin.php:482
+msgid "Idea submitted. <a target=\"_blank\" href=\"%s\">Preview idea</a>"
+msgstr "Inquiry question submitted. <a target=\"_blank\" href=\"%s\">Preview inquiry question</a>"
+
+#: includes/admin/admin.php:484
+msgid "Idea scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview idea</a>"
+msgstr "Inquiry question scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview inquiry question</a>"
+
+#: includes/admin/admin.php:485
+msgctxt "Idea Publish box date format"
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/admin.php:488
+msgid "Idea draft updated. <a target=\"_blank\" href=\"%s\">Preview idea</a>"
+msgstr "Inquiry question draft updated. <a target=\"_blank\" href=\"%s\">Preview inquiry question</a>"
+
+#: includes/admin/admin.php:515
+msgid "%s idea updated."
+msgid_plural "%s ideas updated."
+msgstr[0] "%s inquiry question updated."
+msgstr[1] "%s inquiry questions updated."
+
+#: includes/admin/admin.php:516
+msgid "%s idea not updated, somebody is editing it."
+msgid_plural "%s ideas not updated, somebody is editing them."
+msgstr[0] "%s inquiry question was not updated. Someone else is editing it."
+msgstr[1] "%s inquiry questions were not updated. Someone else is editing them."
+
+#: includes/admin/admin.php:517
+msgid "%s idea permanently deleted."
+msgid_plural "%s ideas permanently deleted."
+msgstr[0] "%s inquiry question has been permanently deleted."
+msgstr[1] "%s inquiry questions have been permanently deleted."
+
+#: includes/admin/admin.php:518
+msgid "%s idea moved to the Trash."
+msgid_plural "%s ideas moved to the Trash."
+msgstr[0] "%s inquiry question has been moved to the Trash."
+msgstr[1] "%s inquiry questions have been moved to the Trash."
+
+#: includes/admin/admin.php:519
+msgid "%s idea restored from the Trash."
+msgid_plural "%s ideas restored from the Trash."
+msgstr[0] "%s inquiry question has been restored from the Trash."
+msgstr[1] "%s inquiry questions have been restored from the Trash."
+
+#: includes/admin/admin.php:599
+msgid "Download all ideas in a csv spreadsheet"
+msgstr "Download all inquiry questions to a csv spreadsheet"
+
+#: includes/admin/admin.php:837
+msgctxt "ideas admin category column header"
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/admin.php:838
+msgctxt "ideas admin tag column header"
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/admin.php:842
+msgid "Average Rate"
+msgstr "Average Curiosity Level"
+
+#: includes/admin/admin.php:873
+msgctxt "downloaded csv content header"
+msgid "Content"
+msgstr ""
+
+#: includes/admin/admin.php:874
+msgctxt "downloaded csv link header"
+msgid "Link"
+msgstr ""
+
+#: includes/admin/admin.php:882
+msgctxt "downloaded csv comments num header"
+msgid "# comments"
+msgstr ""
+
+#: includes/admin/admin.php:886
+msgctxt "downloaded csv rates num header"
+msgid "Average rate"
+msgstr "Average Curiosity Level"
+
+#: includes/admin/admin.php:968
+msgid ", "
+msgstr ""
+
+#: includes/admin/admin.php:1050
+msgctxt "Ratings metabox title"
+msgid "Rates"
+msgstr "Curiosity Level"
+
+#: includes/admin/admin.php:1089 includes/ideas/functions.php:882
+#: includes/ideas/tags.php:1037
+msgid "Not rated yet"
+msgstr "Is anyone else curious about this? "
+
+#: includes/admin/admin.php:1095
+msgid "%1$s member rated the idea. Its Average rate is: %2$s"
+msgid_plural "%1$s members rated the idea. Its Average rate is: %2$s"
+msgstr[0] "%1$s member rated the idea. Its Average rate is: %2$s"
+msgstr[1] "%1$s member is also curious about this inquiry question. Its Average Curiosity Level is: %2$s"
+
+#: includes/admin/admin.php:1118
+msgid "Delete this rate"
+msgstr "Delete this Curiosity Level"
+
+#: includes/admin/admin.php:1193
+msgid "Rate successfully deleted"
+msgstr "Curiosity Level successfully deleted"
+
+#: includes/admin/admin.php:1194
+msgid "Something went wrong while trying to delete the rate."
+msgstr "Something went wrong while trying to delete the curiosity level."
+
+#: includes/admin/admin.php:1318
+msgctxt "prefix of the downloaded csv"
+msgid "ideas"
+msgstr "inquiry questions"
+
+#: includes/admin/admin.php:1355 includes/admin/admin.php:1403
+#: includes/admin/admin.php:1414 includes/admin/admin.php:1446
+#: includes/admin/admin.php:1463
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/admin.php:1357
+msgid "This screen provides access to all the ideas users of your site shared. You can customize the display of this screen to suit your workflow."
+msgstr "This screen provides access to all the inquiry questions users of your site have shared. You can customize the display of this screen to suit your workflow."
+
+#: includes/admin/admin.php:1358
+msgid "You can customize the display of this screen&#39;s contents in a number of ways:"
+msgstr ""
+
+#: includes/admin/admin.php:1360
+msgid "You can hide/display columns based on your needs and decide how many ideas to list per screen using the Screen Options tab."
+msgstr "You can hide/display columns based on your needs and decide how many inquiry questions to list per screen using the Screen Options tab."
+
+#: includes/admin/admin.php:1361
+msgid "You can filter the list of ideas by post status using the text links in the upper left to show All, Published, Private or Trashed ideas. The default view is to show all ideas."
+msgstr "You can filter the list of inquiry questions by post status using the text links in the upper left to show All, Published, Private or Trashed inquiry questions. The default view is to show all inquiry questions."
+
+#: includes/admin/admin.php:1362
+msgid "You can view ideas in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr "You can view inquiry questions in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+
+#: includes/admin/admin.php:1368
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/admin.php:1370
+msgid "Hovering over a row in the ideas list will display action links that allow you to manage an idea. You can perform the following actions:"
+msgstr "Hovering over a row in the inquiry question list will display action links that allow you to manage a question. You can perform the following actions:"
+
+#: includes/admin/admin.php:1372
+msgid "Edit takes you to the editing screen for that idea. You can also reach that screen by clicking on the idea title."
+msgstr "Edit takes you to the editing screen for that inquiry question. You can also reach that screen by clicking on the inquiry question title."
+
+#: includes/admin/admin.php:1373
+msgid "Trash removes the idea from this list and places it in the trash, from which you can permanently delete it."
+msgstr "Trash removes the inquiry question from this list and places it in the trash, from which you can permanently delete it."
+
+#: includes/admin/admin.php:1374
+msgid "View opens the idea in the IdeaStream&#39;s part of your site."
+msgstr "View opens the inquiry question in the InquiryStream&#39;s part of your site."
+
+#: includes/admin/admin.php:1380
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/admin/admin.php:1382
+msgid "You can also move multiple ideas to the trash at once. Select the ideas you want to trash using the checkboxes, then select the &#34;Move to Trash&#34; action from the Bulk Actions menu and click Apply."
+msgstr "You can also move multiple inquiry questions to the trash at once. Select the questions you want to trash using the checkboxes, then select the &#34;Move to Trash&#34; action from the Bulk Actions menu and click Apply."
+
+#: includes/admin/admin.php:1387
+msgid "Sorting & filtering"
+msgstr ""
+
+#: includes/admin/admin.php:1389
+msgid "Clicking on specific column headers will sort the ideas list. You can sort the ideas alphabetically using the Title column header or by popularity:"
+msgstr "Clicking on specific column headers will sort the inquiry question list. You can sort the ideas alphabetically using the Title column header or by popularity:"
+
+#: includes/admin/admin.php:1391
+msgid "Click on the column header having a dialog buble icon to sort by number of comments."
+msgstr "Click on the column header having a dialog bubble icon to sort by the number of comments."
+
+#: includes/admin/admin.php:1392
+msgid "Click on the column header having a star icon to sort by rates."
+msgstr "Click on the column header with the star icon to sort by curiosity level."
+
+#: includes/admin/admin.php:1394
+msgid "Inside the rows, you can filter the ideas by categories or tags clicking on the corresponding terms."
+msgstr "Inside the rows, you can filter the inquiry questions by categories or tags clicking on the corresponding terms."
+
+#: includes/admin/admin.php:1405
+msgid "The title field and the big Idea Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to hide/show boxes."
+msgstr "The title field and the large inquiry question Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to hide/show boxes."
+
+#: includes/admin/admin.php:1416
+msgid "This is the place where you can customize the behavior of IdeaStream."
+msgstr "This is the place where you can customize the behavior of InquiryStream."
+
+#: includes/admin/admin.php:1417
+msgid "Please see the additional help tabs for more information on each individual section."
+msgstr ""
+
+#: includes/admin/admin.php:1422 includes/admin/settings.php:31
+msgid "Main Settings"
+msgstr ""
+
+#: includes/admin/admin.php:1424
+msgid "Just before the first option, you will find the link to the main archive page of the plugin. If you wish, you can use it to define a new custom link %1$smenu item%2$s."
+msgstr ""
+
+#: includes/admin/admin.php:1425
+msgid "If you do so, do not forget to update the link in case you change your permalink settings. Another possible option is to use the %1$sIdeaStream Navigation%2$s widget in one of your dynamic sidebars."
+msgstr "If you do so, do not forget to update the link in case you change your permalink settings. Another possible option is to use the %1$sInquiryStream Navigation%2$s widget in one of your dynamic sidebars."
+
+#: includes/admin/admin.php:1426
+msgid "In the Main Settings you have a number of options:"
+msgstr ""
+
+#: includes/admin/admin.php:1428
+msgid "IdeaStream archive page: you can customize the title of this page. It will appear on every IdeaStream&#39;s page, except the single idea one."
+msgstr "InquiryStream archive page: you can customize the title of this page. It will appear on every InquiryStream&#39;s page, except the single inquiry question one."
+
+#: includes/admin/admin.php:1429
+msgid "New ideas status: this is the default status to apply to the ideas submitted by the user. If this setting is set to &#34;Pending&#34;, it will be possible to edit the moderation message once this setting has been saved."
+msgstr "New inquiry question status: this is the default status to apply to the inquiry questions submitted by the user. If this setting is set to &#34;Pending&#34;, it will be possible to edit the moderation message once this setting has been saved."
+
+#: includes/admin/admin.php:1430
+msgid "Images & Links are settings about the IdeaStream&#39;s editor. If you wish to disable the image or link buttons, you can disable the corresponding setting."
+msgstr "Images & Links are settings about the InquiryStream&#39;s editor. If you wish to disable the image or link buttons, you can disable the corresponding setting."
+
+#: includes/admin/admin.php:1431
+msgid "Moderation message: if New ideas status is defined to Pending, it is the place to customize the awaiting moderation message the user will see once he submited his idea."
+msgstr "Moderation message: if the New inquiry question status is set to Pending, you can customize the awaiting moderation message the user will see once they submit an idea here."
+
+#: includes/admin/admin.php:1432
+msgid "Not logged in message: if a user reaches the IdeaStream&#39;s front end submit form without being logged in, a message will invite him to do so. If you wish to use a custom message, use this setting."
+msgstr "Not logged in message: if a user reaches the InquiryStream&#39;s front end submission form without being logged in, a message will invite them to do so. You can customize the message a user would see here."
+
+#: includes/admin/admin.php:1433
+msgid "Rating stars hover captions: fill a comma separated list of captions to replace default one. On front end, the number of rating stars will depend on the number of comma separated captions you defined in this setting."
+msgstr "Curiosity level hover captions: fill a comma separated list of captions to replace the default ones. On the front end, the number of rating stars will depend on the number of comma separated captions you defined in this setting."
+
+#: includes/admin/admin.php:1434
+msgid "Sticky ideas: choose whether to allow or not Administrators to stick ideas to the top of the IdeaStream&#39;s archive first page."
+msgstr "Sticky inquiry questions: choose whether to allow or not Administrators to promote ideas to the top of the InquiryStream&#39;s archive first page."
+
+#: includes/admin/admin.php:1435
+msgid "Idea comments: if on, comments about ideas will be separated from other post types comments and you will be able to moderate comments about ideas from the comments submenu of the IdeaStream&#39;s main Administration menu. If you uncheck this setting, ideas comments will be mixed up with other post types comments into the main Comments Administration menu"
+msgstr "Inquiry question comments: if on, comments about submitted questions will be separated from other post type comments and you will be able to moderate comments about inquiry questions from the comments submenu of the InquiryStream&#39;s main Administration menu. If you uncheck this setting, ideas comments will be mixed up with other post type comments (like blog posts) in the main Comments Administration menu"
+
+#: includes/admin/admin.php:1436
+msgid "Comments: you can completely disable commenting about ideas by activating this option"
+msgstr "Comments: you can completely disable commenting on inquiry questions by activating this option"
+
+#: includes/admin/admin.php:1448
+msgid "Idea Categories can only be created by the site Administrator. To add a new idea category please fill the following fields:"
+msgstr "Inquiry Question Categories can only be created by the site Administrator. To add a new inquiry question category, please fill the following fields:"
+
+#: includes/admin/admin.php:1450
+msgid "Name - The name is how it appears on your site (in the category checkboxes of the idea front end submit form, in the idea&#39;s footer part or in the title of IdeaStream&#39;s category archive pages)."
+msgstr "Name - The name is how it appears on your site (in the category checkboxes of the inquiry question front end submit form, in the question&#39;s footer or in the title of InquiryStream&#39;s category archive pages)."
+
+#: includes/admin/admin.php:1451 includes/admin/admin.php:1468
+msgid "Slug - The &#34;slug&#34; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: includes/admin/admin.php:1452
+msgid "Description - If you set a description for your category, it will be displayed over the list of ideas in the category archive page."
+msgstr "Description - If you set a description for your category, it will be displayed over the list of inquiry questions in the category archive page."
+
+#: includes/admin/admin.php:1454 includes/admin/admin.php:1471
+msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
+msgstr ""
+
+#: includes/admin/admin.php:1465
+msgid "Idea Tags can be created by any logged in user of the site from the idea front end submit form. From this screen, to add a new idea tag please fill the following fields:"
+msgstr "Inquiry Question Tags can be created by member of the site from the front end submit form. To add a new inquiry question tag, please fill the following fields:"
+
+#: includes/admin/admin.php:1467
+msgid "Name - The name is how it appears on your site (in the tag cloud, in the tags editor of the idea front end submit form, in the idea&#39;s footer part or in the title of IdeaStream&#39;s tag archive pages)."
+msgstr "Name - The name is how it appears on your site (in the tag cloud, in the tags editor of the front end submit form, in the question&#39;s footer part or in the title of InquiryStream&#39;s tag archive pages)."
+
+#: includes/admin/admin.php:1469
+msgid "Description - If you set a description for your tag, it will be displayed over the list of ideas in the tag archive page."
+msgstr "Description - If you set a description for your tag, it will be displayed over the list of inquiry questions in the tag archive page."
+
+#: includes/admin/admin.php:1481 includes/admin/settings.php:39
+msgid "Pretty Links"
+msgstr ""
+
+#: includes/admin/admin.php:1483
+msgid "The Pretty Links section allows you to control the permalink structure of the plugin by defining custom slugs."
+msgstr ""
+
+#: includes/admin/admin.php:1484
+msgid "The IdeaStream root slug is the most important one. Make sure the slug you chose is unique. Once saved, IdeaStream will check for an eventual slug collision with WordPress (Posts, Pages or subsites in case of a MultiSite Config), bbPress or BuddyPress, and will display a warning next to the option field."
+msgstr "The InquiryStream root slug is the most important one. Make sure the slug you chose is unique. Once saved, IdeaStream will check for an eventual slug collision with WordPress (Posts, Pages or subsites in case of a MultiSite Config), bbPress or BuddyPress, and will display a warning next to the option field."
+
+#: includes/admin/admin.php:1485
+msgid "In the case of a slug collision, i strongly advise you to change the IdeaStream root slug."
+msgstr "In the case of a slug collision, you are strongly advised to change the InquiryStream root slug."
+
+#: includes/admin/admin.php:1486
+msgid "Concerning the text you will enter in the slug fields, make sure it is all lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: includes/admin/admin.php:1503
+msgid "For more information:"
+msgstr ""
+
+#: includes/admin/admin.php:1505
+msgctxt "help tab links"
+msgid "%1$sSupport Forums (en)%2$s"
+msgstr ""
+
+#: includes/admin/admin.php:1506
+msgctxt "help tab links"
+msgid "%1$sIdeaStream posts (fr)%2$s"
+msgstr "%1$sInquiryStream posts (fr)%2$s"
+
+#: includes/admin/admin.php:1533
+msgid "The Rates metabox allows you to manage the rates the idea received."
+msgstr "The Curiosity Level meatball allows you to manage the curiosity level ratings the inquiry questions recieve."
+
+#: includes/admin/admin.php:1782 includes/admin/thanks.php:50
+#: includes/admin/thanks.php:128 includes/core/upgrade.php:148
+msgid "About"
+msgstr ""
+
+#: includes/admin/comments.php:151
+msgctxt "wp idea stream admin menu bubble"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/admin/comments.php:174 includes/admin/comments.php:187
+#: includes/admin/settings.php:146
+msgid "Comments"
+msgstr ""
+
+#: includes/admin/comments.php:220 includes/core/functions.php:324
+msgid "IdeaStream"
+msgstr "InquiryStream"
+
+#: includes/admin/settings.php:74
+msgid "IdeaStream archive page"
+msgstr "InquiryStream archive page"
+
+#: includes/admin/settings.php:82
+msgid "New ideas status"
+msgstr "New inquiry question status"
+
+#: includes/admin/settings.php:90
+msgid "Images"
+msgstr ""
+
+#: includes/admin/settings.php:98
+msgid "Links"
+msgstr ""
+
+#: includes/admin/settings.php:106
+msgid "Moderation message"
+msgstr ""
+
+#: includes/admin/settings.php:114
+msgid "Not logged in message"
+msgstr ""
+
+#: includes/admin/settings.php:122
+msgid "Rating stars hover captions"
+msgstr "Curiosity Level hover captions"
+
+#: includes/admin/settings.php:130
+msgid "Sticky ideas"
+msgstr "Sticky Inquiry Questions"
+
+#: includes/admin/settings.php:138
+msgid "Idea comments"
+msgstr "Inquiry question comments"
+
+#: includes/admin/settings.php:160
+msgid "IdeaStream root slug"
+msgstr "InquiryStream root slug"
+
+#: includes/admin/settings.php:168
+msgid "Single idea slug"
+msgstr "Single inquiry question slug"
+
+#: includes/admin/settings.php:176
+msgid "Category slug"
+msgstr ""
+
+#: includes/admin/settings.php:184
+msgid "Tag slug"
+msgstr ""
+
+#: includes/admin/settings.php:192
+msgid "User slug"
+msgstr ""
+
+#: includes/admin/settings.php:200
+msgid "User comments slug"
+msgstr ""
+
+#: includes/admin/settings.php:208
+msgid "User comments paging slug"
+msgstr ""
+
+#: includes/admin/settings.php:216
+msgid "User ratings slug"
+msgstr ""
+
+#: includes/admin/settings.php:224
+msgid "Sign-up slug"
+msgstr ""
+
+#: includes/admin/settings.php:232
+msgid "Action slug"
+msgstr ""
+
+#: includes/admin/settings.php:240
+msgid "New form slug"
+msgstr ""
+
+#: includes/admin/settings.php:248
+msgid "Edit form slug"
+msgstr ""
+
+#: includes/admin/settings.php:378
+msgctxt "ideastream settings root slug conflict"
+msgid "this %s"
+msgstr ""
+
+#: includes/admin/settings.php:388
+msgctxt "bbPress possible conflict"
+msgid "bbPress forum root slug"
+msgstr ""
+
+#: includes/admin/settings.php:402
+msgctxt "Child blog possible conflict"
+msgid "child blog slug"
+msgstr ""
+
+#: includes/admin/settings.php:425
+msgid "Possible conflict with: %s"
+msgstr ""
+
+#: includes/admin/settings.php:447
+msgid "Customize IdeaStream features"
+msgstr "Customize InquiryStream features"
+
+#: includes/admin/settings.php:448
+msgid "Url of IdeaStream&#39;s main page: %s"
+msgstr "Url of InquiryStream&#39;s main page: %s"
+
+#: includes/admin/settings.php:490
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/settings.php:491
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/settings.php:493
+msgid "is the default status for all ideas"
+msgstr "is the default status for all submitted inquiry questions"
+
+#: includes/admin/settings.php:494
+msgid "Depending on this setting, the moderation message one will be available"
+msgstr ""
+
+#: includes/admin/settings.php:515
+msgid "Allow users to add images to their ideas"
+msgstr "Allow users to add images to their inquiry questions"
+
+#: includes/admin/settings.php:536
+msgid "Allow users to add links to their ideas"
+msgstr "Allow users to add links to their inquiry questions"
+
+#: includes/admin/settings.php:557
+msgid "In case Pending is the status for all ideas, you can customize the moderation message"
+msgstr "In cases where Pending is the status for all inquiry questions, you can customize the moderation message"
+
+#: includes/admin/settings.php:578
+msgid "You can customize the message shown to not logged in users on the new idea form"
+msgstr "You can customize the message shown to logged out users on the new inquiry question form"
+
+#: includes/admin/settings.php:601
+msgid "You can customize the hover captions used for stars by using a comma separated list of captions"
+msgstr "You can customize the hover captions used for the curiosity level rating system by using a comma separated list of captions"
+
+#: includes/admin/settings.php:623
+msgid "Allow ideas to be sticked to top of IdeaStream first page"
+msgstr "Allow inquiry questions to be promoted (made sticky) to top of the InquiryStream first page"
+
+#: includes/admin/settings.php:644
+msgid "Separate comments made on ideas from the other post types."
+msgstr "Separate comments made on inquiry questions from the other post types (e.g. blog posts)."
+
+#: includes/admin/settings.php:665
+msgid "Allow users to add comments on ideas"
+msgstr "Allow users to comment on submitted inquiry questions"
+
+#: includes/admin/settings.php:685
+msgid "Customize the slugs of IdeaStream urls"
+msgstr "Customize the slugs of InquiryStream urls"
+
+#: includes/admin/settings.php:829
+msgid "&#39;%s&#39; slug cannot be used here."
+msgstr ""
+
+#: includes/admin/settings.php:1086
+msgid "IdeaStream Settings"
+msgstr "InquiryStream Settings"
+
+#: includes/admin/settings.php:1095
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/sticky.php:152
+msgid "Sticky"
+msgstr ""
+
+#: includes/admin/sticky.php:188
+msgid "This idea cannot be sticky"
+msgstr "This inquiry question cannot be made sticky"
+
+#: includes/admin/sticky.php:195
+msgid "Select whether to stick or not the idea."
+msgstr "Select whether or not to make the inquiry question sticky."
+
+#: includes/admin/sticky.php:196
+msgid "Mark as sticky"
+msgstr ""
+
+#: includes/admin/sticky.php:315
+msgid "Private or password protected ideas cannot be marked as sticky"
+msgstr "Private or password protected ideas cannot be made sticky"
+
+#: includes/admin/sticky.php:316
+msgid "Idea successfully removed from stickies"
+msgstr "Inquiry question successfully removed from sticky questions"
+
+#: includes/admin/sticky.php:317
+msgid "Idea successfully added to stickies"
+msgstr "Inquiry question successfully made sticky"
+
+#: includes/admin/sticky.php:341
+msgctxt "idea list table row state"
+msgid "Sticky"
+msgstr "Sticky Questions"
+
+#: includes/admin/sticky.php:382
+msgctxt "admin ideas sticky view"
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/sticky.php:427
+msgid "The Sticky metabox allows you to stick a published idea (not password protected) to the top of the front ideas archive first page."
+msgstr "The Sticky metabox allows you to promote a published inquiry question (not password protected) to the top of the first page of the inquiry question archive."
+
+#: includes/admin/thanks.php:36
+msgid "activating"
+msgstr ""
+
+#: includes/admin/thanks.php:39
+msgid "upgrading to"
+msgstr ""
+
+#: includes/admin/thanks.php:44
+msgctxt "about screen title"
+msgid "WP Idea Stream %s"
+msgstr "WP InquiryStream %s"
+
+#: includes/admin/thanks.php:45
+msgid "Thank you for %1$s the latest version of WP Idea Stream! %2$s brings some cool improvements."
+msgstr "Thank you for %1$s the latest version of WP InquiryStream! %2$s brings some cool improvements."
+
+#: includes/admin/thanks.php:53 includes/admin/thanks.php:131
+msgid "Credits"
+msgstr ""
+
+#: includes/admin/thanks.php:58
+msgctxt "IdeaStream Headline"
+msgid "Share ideas, great ones will rise to the top!"
+msgstr "Share inquiry questions. Great ones will rise to the top!"
+
+#: includes/admin/thanks.php:62
+msgid "WP Idea Stream is a WordPress plugin to power idea management for your site. Your members will be able to easily create, share and rate ideas."
+msgstr "WP InquiryStream is a WordPress plugin to power inquiry question management for your site. Your members will be able to easily create, share and rate inquiry questions."
+
+#: includes/admin/thanks.php:66
+msgid "Important: these features are not supported anymore."
+msgstr ""
+
+#: includes/admin/thanks.php:68
+msgid "Set the list of ideas as the front page of the blog."
+msgstr "Set the list of inquiry questions as the front page of the blog."
+
+#: includes/admin/thanks.php:69
+msgid "Sharing options (twitter or email)."
+msgstr ""
+
+#: includes/admin/thanks.php:70
+msgid "Disabling the built-in rating system."
+msgstr "Disabling the built-in rating system."
+
+#: includes/admin/thanks.php:79
+msgid "Some new features.."
+msgstr ""
+
+#: includes/admin/thanks.php:82
+msgid "About sign-ups"
+msgstr ""
+
+#: includes/admin/thanks.php:83
+msgid "%s now includes a sign-up page for regular configs. If you are using BuddyPress or a multisite config: their specific sign-ups page will be used."
+msgstr ""
+
+#: includes/admin/thanks.php:84
+msgid "Export ideas in a csv file"
+msgstr "Export inquiry questions as a csv file"
+
+#: includes/admin/thanks.php:85
+msgid "From the Ideas Administration, you are now able to export all submitted ideas or the ones having the selected status from the last link above the list of ideas."
+msgstr "From the InquiryStream Administration, you are now able to export all submitted inquiry questions or the ones having the selected status from the last link above the list of inquiry questions."
+
+#: includes/admin/thanks.php:86
+msgid "BuddyPress activities"
+msgstr ""
+
+#: includes/admin/thanks.php:87
+msgid "WP Idea Stream now uses BuddyPress post types activities to record an activity when an idea is published. The BuddyPress blogs component must be activated to enable this feature."
+msgstr "WP InquiryStream now uses BuddyPress post types activities to record an activity when an inquiry question is published. The BuddyPress blogs component must be activated to enable this feature."
+
+#: includes/admin/thanks.php:96 includes/admin/thanks.php:182
+msgid "Configure WP Idea Stream"
+msgstr "Configure WP InquiryStream"
+
+#: includes/admin/thanks.php:96 includes/admin/thanks.php:182
+msgid "Go to the IdeaStream Settings page"
+msgstr "Go to the InquiryStream Settings page"
+
+#: includes/admin/thanks.php:122
+msgctxt "credit screen title"
+msgid "WP Idea Stream %s"
+msgstr "WP Inquiry Stream %s"
+
+#: includes/admin/thanks.php:123
+msgid "%s version of WP Idea Stream was also successfully released thanks to them!"
+msgstr "%s version of WP Inquiry Stream was also successfully released thanks to them!"
+
+#: includes/admin/thanks.php:136
+msgid "The team!"
+msgstr ""
+
+#: includes/admin/thanks.php:141
+msgid "Creator"
+msgstr ""
+
+#: includes/admin/thanks.php:146
+msgid "Contributor"
+msgstr ""
+
+#: includes/admin/thanks.php:152
+msgid "Special thanks."
+msgstr ""
+
+#: includes/admin/thanks.php:156
+msgid "WP Idea Stream was the choice of the WordCamp Paris 2015 organization team to manage their &quot;Call for Speakers&quot;. Some requested features were very specific to their need and were all added as custom hooks in the %s file."
+msgstr ""
+
+#: includes/admin/thanks.php:157
+msgid "The plugin was completely transformed to let the speakers submit their talks privately. The managing team was able to discuss together using private comments and evaluate each talk using the built-in rating system."
+msgstr ""
+
+#: includes/admin/thanks.php:158
+msgid "Some other features such as a sign-up page and the ability to export all submitted talks in a csv file have been added to the current version (%s). Many thanks to WordCamp Paris organizers and speakers for this great experience."
+msgstr ""
+
+#: includes/admin/thanks.php:161
+msgid "WP Idea Stream&#39;s external libraries and useful code"
+msgstr "WP InquiryStream&#39;s external libraries and useful code"
+
+#: includes/buddypress/activity.php:236 includes/buddypress/groups.php:2533
+msgctxt "activity admin dropdown caption"
+msgid "New %s published"
+msgstr ""
+
+#: includes/buddypress/activity.php:238 includes/buddypress/groups.php:2535
+msgctxt "activity front dropdown caption"
+msgid "%s"
+msgstr ""
+
+#: includes/buddypress/activity.php:244 includes/buddypress/groups.php:2541
+msgctxt "activity comment admin dropdown caption"
+msgid "New %s comment posted"
+msgstr ""
+
+#: includes/buddypress/activity.php:246 includes/buddypress/groups.php:2543
+msgctxt "activity comments front dropdown caption"
+msgid "%s comments"
+msgstr ""
+
+#: includes/buddypress/activity.php:528
+msgctxt "idea posted activity action"
+msgid "%1$s wrote a new %2$s"
+msgstr ""
+
+#: includes/buddypress/activity.php:565
+msgctxt "idea commented activity action"
+msgid "%1$s replied to this %2$s"
+msgstr ""
+
+#: includes/buddypress/activity.php:1329
+msgid "Repair IdeaStream activities."
+msgstr "Repair InquiryStream activities"
+
+#: includes/buddypress/activity.php:1364
+msgid "Making sure IdeaStream activities are consistent: %s"
+msgstr "Making sure InquiryStream activities are consistent: %s"
+
+#: includes/buddypress/activity.php:1367
+msgid "No activity needs to be repaired."
+msgstr ""
+
+#: includes/buddypress/activity.php:1507
+msgid "%d repared"
+msgstr "%d repaired"
+
+#: includes/buddypress/groups.php:227 includes/buddypress/groups.php:235
+msgid "%s group settings"
+msgstr ""
+
+#: includes/buddypress/groups.php:244
+msgid "Activate %s."
+msgstr ""
+
+#: includes/buddypress/groups.php:253
+msgid "Allow members to comment ideas."
+msgstr "Allow members to comment on inquiry questions."
+
+#: includes/buddypress/groups.php:262
+msgid "Use Categories."
+msgstr ""
+
+#: includes/buddypress/groups.php:285
+msgid "Remove all ideas."
+msgstr "Remove all inquiry questions."
+
+#: includes/buddypress/groups.php:293
+msgid "Save"
+msgstr ""
+
+#: includes/buddypress/groups.php:366
+msgid "Settings saved successfully"
+msgstr ""
+
+#: includes/buddypress/groups.php:989
+msgid "BuddyPress Groups"
+msgstr ""
+
+#: includes/buddypress/groups.php:1015
+msgid "Activate IdeaStream in Groups"
+msgstr "Activate InquiryStream in Groups"
+
+#: includes/buddypress/groups.php:1738 includes/buddypress/groups.php:1752
+msgid "Removing the idea failed."
+msgstr "Removing the inquiry question failed."
+
+#: includes/buddypress/groups.php:1746
+msgid "Removing the idea failed, you do not have the capability to remove ideas."
+msgstr "Removing the inquiry question failed, you do not have the capability to remove inquiry questions."
+
+#: includes/buddypress/groups.php:1756
+msgid "The idea was successfully removed."
+msgstr "The inquiry question was successfully removed."
+
+#: includes/buddypress/groups.php:1768 includes/buddypress/groups.php:1782
+msgid "Spamming the comment failed."
+msgstr ""
+
+#: includes/buddypress/groups.php:1776
+msgid "Spamming the comment failed, you do not have the capability to spam comments."
+msgstr ""
+
+#: includes/buddypress/groups.php:1785
+msgid "The comment was successfully marked as spam."
+msgstr ""
+
+#: includes/buddypress/groups.php:1798 includes/buddypress/groups.php:1812
+msgid "Deleting the comment failed."
+msgstr ""
+
+#: includes/buddypress/groups.php:1806
+msgid "Deleting the comment failed, you do not have the capability to delete comments."
+msgstr ""
+
+#: includes/buddypress/groups.php:1815
+msgid "The comment was successfully deleted."
+msgstr ""
+
+#: includes/buddypress/groups.php:1904 includes/buddypress/groups.php:1954
+msgid "No idea was requested"
+msgstr "No inquiry question was requested"
+
+#: includes/buddypress/groups.php:1914 includes/core/template-loader.php:452
+msgid "The idea: &#34;%s&#34; is already being edited by another user."
+msgstr "The inquiry question: &#34;%s&#34; is already being edited by another user."
+
+#: includes/buddypress/groups.php:1920 includes/core/template-loader.php:464
+#: includes/ideas/functions.php:1226
+msgid "You are not allowed to edit this idea."
+msgstr "You are not allowed to edit this inquiry question."
+
+#: includes/buddypress/groups.php:1942 includes/buddypress/groups.php:1972
+msgid "The idea was not found in this group."
+msgstr "The inquiry question was not found in this group."
+
+#: includes/buddypress/groups.php:1946
+msgid "The action requested is not available"
+msgstr ""
+
+#: includes/buddypress/groups.php:1980
+msgid "No %s was requested"
+msgstr ""
+
+#: includes/buddypress/groups.php:1986
+msgid "This group does not support the %s feature."
+msgstr ""
+
+#: includes/buddypress/groups.php:2018
+msgid "The %s was not found"
+msgstr ""
+
+#: includes/buddypress/groups.php:2135
+msgid "You must be a member of the group to post ideas"
+msgstr "You must be a member of the group to post inquiry questions"
+
+#: includes/buddypress/groups.php:2295
+msgctxt "idea footer group of publication"
+msgid "from the group %s"
+msgstr ""
+
+#: includes/buddypress/groups.php:2302
+msgctxt "idea group of publication tag no-category"
+msgid "and posted from the group %s"
+msgstr ""
+
+#: includes/buddypress/groups.php:2316 includes/core/functions.php:329
+#: includes/core/template-functions.php:765 includes/ideas/tags.php:1376
+msgid "Edit Idea"
+msgstr "Edit Inquiry question"
+
+#: includes/buddypress/groups.php:2325
+msgid "Remove Idea"
+msgstr "Remove Inquiry question"
+
+#: includes/buddypress/groups.php:2402
+msgid "Spam comment"
+msgstr ""
+
+#: includes/buddypress/groups.php:2402
+msgid "Spam"
+msgstr ""
+
+#: includes/buddypress/groups.php:2407
+msgid "Delete comment"
+msgstr ""
+
+#: includes/buddypress/groups.php:2407
+msgid "Delete"
+msgstr ""
+
+#: includes/buddypress/groups.php:2845
+msgctxt "idea posted group activity action"
+msgid "%1$s wrote a new %2$s in the group %3$s"
+msgstr ""
+
+#: includes/buddypress/groups.php:2900
+msgctxt "idea commented group activity action"
+msgid "%1$s replied to this %2$s posted in the group %3$s"
+msgstr ""
+
+#: includes/buddypress/groups.php:3040
+msgid "BuddyPress Group"
+msgstr ""
+
+#: includes/buddypress/groups.php:3061
+msgid "The author of the idea needs to be a member of the group selected"
+msgstr "The author of the inquiry question needs to be a member of the group selected"
+
+#: includes/buddypress/groups.php:3062
+msgid "Idea successfully removed from group"
+msgstr "Inquiry question successfully removed from group"
+
+#: includes/buddypress/groups.php:3063
+msgid "Idea successfully added to group"
+msgstr "Inquiry question successfully added to group"
+
+#: includes/buddypress/groups.php:3064
+msgid "Status of the idea is not compatible with the group visibility"
+msgstr "Visibility status of the inquiry question is not compatible with the visibility of the group"
+
+#: includes/buddypress/groups.php:3065
+msgid "Group was not found."
+msgstr ""
+
+#: includes/buddypress/groups.php:3108
+msgid "Search in groups to select one:"
+msgstr ""
+
+#: includes/buddypress/groups.php:3111
+msgid "Only groups where IdeaStream is activated and where the author of this idea is a member of will show."
+msgstr "Only groups where InquiryStream is activated, and where the author of this inquiry question is a member, will show this question."
+
+#: includes/buddypress/groups.php:3124
+msgid "This idea is not associated to any group"
+msgstr "This inquiry question is not associated with any group"
+
+#: includes/buddypress/groups.php:3293
+msgid "Groups"
+msgstr ""
+
+#: includes/buddypress/groups.php:3348
+msgid "The Buddypress Group metabox allows you to select a group, the author is member of, to attach the idea to. Private or hidden groups will require the idea to have a status set to private."
+msgstr ""
+
+#: includes/buddypress/groups.php:3404
+msgctxt "ideas groups admin column header"
+msgid "# Ideas"
+msgstr "# Inquiry Questions"
+
+#: includes/buddypress/loader.php:359
+msgid "To benefit of WP Idea Stream in BuddyPress, version %s of BuddyPress is required. Please upgrade or deactivate %s."
+msgstr "To benefit from WP InquiryStream in BuddyPress, version %s of BuddyPress is required. Please upgrade or deactivate %s."
+
+#: includes/buddypress/notifications.php:57
+msgid "New idea comments"
+msgstr "New inquiry question comments"
+
+#: includes/buddypress/notifications.php:58
+msgid "%d new idea comments"
+msgstr "%d new inquiry question comments"
+
+#: includes/buddypress/notifications.php:62
+#: includes/buddypress/notifications.php:63
+msgid "New idea comment"
+msgstr "New inquiry question comment"
+
+#: includes/buddypress/notifications.php:67
+msgid "New comment about the idea: %s"
+msgstr "New comment about the inquiry question: %s"
+
+#: includes/buddypress/notifications.php:78
+msgid "New idea rates"
+msgstr "New curiosity level shared"
+
+#: includes/buddypress/notifications.php:79
+msgid "%d new idea rates"
+msgstr "%d new curiosities"
+
+#: includes/buddypress/notifications.php:83
+#: includes/buddypress/notifications.php:84
+msgid "New idea rate"
+msgstr "New Curiosity Level"
+
+#: includes/buddypress/notifications.php:89
+msgid "%s rated the idea: %s"
+msgstr "%s is also curious about this: %s"
+
+#: includes/buddypress/settings.php:29 includes/buddypress/settings.php:119
+msgid "BuddyPress Integration Settings"
+msgstr ""
+
+#: includes/buddypress/settings.php:52
+msgid "BuddyPress"
+msgstr ""
+
+#: includes/buddypress/settings.php:78
+msgid "Customize the way WP Idea Stream should play with BuddyPress."
+msgstr "Customize the way WP InquiryStream should play with BuddyPress."
+
+#: includes/buddypress/settings.php:99
+msgid "Activate BuddyPress integration"
+msgstr ""
+
+#: includes/buddypress/settings.php:121
+msgid "Sharing Ideas in a BuddyPress powered community will improve user interactions about the ideas posted on your site."
+msgstr "Sharing Inquiry Questions in a BuddyPress powered community will improve user interactions about the questions posted on your site."
+
+#: includes/buddypress/settings.php:122
+msgid "If the setting &#34;Activate BuddyPress integration&#34; is activated and you are using at least version 2.1 of BuddyPress, some nice new functionalities will be available depending on the BuddyPress components you activated:"
+msgstr ""
+
+#: includes/buddypress/settings.php:124
+msgid "the plugin&#39;s user profile becomes a new navigation in the BuddyPress member page."
+msgstr ""
+
+#: includes/buddypress/settings.php:125
+msgid "Groups component is activated?"
+msgstr ""
+
+#: includes/buddypress/settings.php:126
+msgid "Nice, it’s now possible to share ideas within these micro-communities ensuring their members that the group&#39;s visibility is transposed to the status of their ideas."
+msgstr ""
+
+#: includes/buddypress/settings.php:127
+msgid "But you can also prefer to disable IdeaStream&#39;s Group integration, this is possible by deactivating the &#34;BuddyPress Groups setting&#34;."
+msgstr ""
+
+#: includes/buddypress/settings.php:128
+msgid "Site Tracking and Activity components are activated?"
+msgstr ""
+
+#: includes/buddypress/settings.php:129
+msgid "Great, each time a new idea or a new comment about an idea will be posted, an activity will be generated to inform the members of your community."
+msgstr ""
+
+#: includes/buddypress/settings.php:130
+msgid "Notifications component is activated?"
+msgstr ""
+
+#: includes/buddypress/settings.php:131
+msgid "Awesome, your members will receive a screen notification when their ideas has been commented or rated."
+msgstr "Awesome, your members will receive a screen notification when their inquiry questions have been commented on or rated."
+
+#: includes/comments/classes.php:367
+msgid "New comment on your idea \"%s\""
+msgstr "New comment on your inquiry question \"%s\""
+
+#: includes/comments/classes.php:368
+msgid "Comment: "
+msgstr ""
+
+#: includes/comments/classes.php:369
+msgid "Permalink to the comment: %s"
+msgstr ""
+
+#: includes/comments/tags.php:126
+msgid "It looks like %s has not commented any idea yet"
+msgstr "It looks like %s has not commented on any inquiry questions yet"
+
+#: includes/comments/tags.php:169
+msgid "Viewing %1$s to %2$s (of %3$s comments)"
+msgid_plural "Viewing %1$s to %2$s (of %3$s comments)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/comments/tags.php:274 includes/ideas/tags.php:607
+msgid "User&#39;s profile"
+msgstr ""
+
+#: includes/comments/tags.php:313
+msgid "In reply to :"
+msgstr ""
+
+#: includes/comments/tags.php:395 includes/ideas/tags.php:768
+msgctxt "idea permalink title protected attribute"
+msgid "Protected :"
+msgstr ""
+
+#: includes/comments/tags.php:397 includes/ideas/tags.php:770
+msgctxt "idea permalink title private attribute"
+msgid "Private :"
+msgstr ""
+
+#: includes/comments/tags.php:489
+msgid "The idea, the comment was posted on, is password protected, you will need it to view its content."
+msgstr "The inquiry question the comment was posted on is password protected. You will need this password to view the content."
+
+#: includes/comments/tags.php:493
+msgid "The idea, the comment was posted on is private, you cannot view its content."
+msgstr "The inquiry question the comment was posted on is private. You cannot view the content."
+
+#: includes/comments/tags.php:534
+msgid "This comment was posted on %s"
+msgstr ""
+
+#: includes/comments/widgets.php:41
+msgid "Latest comments about ideas"
+msgstr "Latest comments on inquiry questions"
+
+#: includes/comments/widgets.php:42
+msgid "IdeaStream latest comments"
+msgstr "InquiryStream latest comments"
+
+#: includes/core/classes.php:596
+msgctxt "pagination previous text"
+msgid "&larr;"
+msgstr ""
+
+#: includes/core/classes.php:597
+msgctxt "pagination next text"
+msgid "&rarr;"
+msgstr ""
+
+#: includes/core/functions.php:323 includes/core/template-functions.php:834
+msgid "Ideas"
+msgstr "Inquiry Questions"
+
+#: includes/core/functions.php:325 includes/ideas/tags.php:1405
+msgid "All Ideas"
+msgstr "All Inquiry Questions"
+
+#: includes/core/functions.php:326
+msgid "Idea"
+msgstr "Inquiry"
+
+#: includes/core/functions.php:327 includes/core/functions.php:328
+msgid "Add New Idea"
+msgstr "Add New Inquiry Question"
+
+#: includes/core/functions.php:330 includes/core/template-functions.php:760
+msgid "New Idea"
+msgstr "New Inquiry"
+
+#: includes/core/functions.php:331
+msgid "View Idea"
+msgstr "View Inquiry"
+
+#: includes/core/functions.php:332 includes/ideas/tags.php:39
+msgid "Search Ideas"
+msgstr "Search Inquiry Questions"
+
+#: includes/core/functions.php:333
+msgid "No Ideas Found"
+msgstr "No Inquiry Questions Found"
+
+#: includes/core/functions.php:334
+msgid "No Ideas Found in Trash"
+msgstr "No Inquiry Questions Found in Trash"
+
+#: includes/core/functions.php:400
+msgid "Idea Categories"
+msgstr "Inquiry Question Categories"
+
+#: includes/core/functions.php:401
+msgid "Idea Category"
+msgstr "Inquiry Question Category"
+
+#: includes/core/functions.php:402
+msgid "Edit Category"
+msgstr ""
+
+#: includes/core/functions.php:403
+msgid "Update Category"
+msgstr ""
+
+#: includes/core/functions.php:404
+msgid "Add New Category"
+msgstr ""
+
+#: includes/core/functions.php:405
+msgid "New Category Name"
+msgstr ""
+
+#: includes/core/functions.php:406
+msgid "All Categories"
+msgstr ""
+
+#: includes/core/functions.php:407
+msgid "Search Categories"
+msgstr ""
+
+#: includes/core/functions.php:408
+msgid "Parent Category"
+msgstr ""
+
+#: includes/core/functions.php:409
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/core/functions.php:475
+msgid "Idea Tags"
+msgstr "Inquiry Question Tags"
+
+#: includes/core/functions.php:476
+msgid "Idea Tag"
+msgstr "Inquiry Question Tag"
+
+#: includes/core/functions.php:477
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/core/functions.php:478
+msgid "Update Tag"
+msgstr ""
+
+#: includes/core/functions.php:479
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/core/functions.php:480
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/core/functions.php:481
+msgid "All Tags"
+msgstr ""
+
+#: includes/core/functions.php:482
+msgid "Search Tags"
+msgstr ""
+
+#: includes/core/functions.php:483
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/core/functions.php:484
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/core/functions.php:485
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/core/functions.php:486
+msgid "Choose from the most popular tags"
+msgstr ""
+
+#: includes/core/functions.php:681
+msgid "Saved successfully"
+msgstr ""
+
+#: includes/core/functions.php:793
+msgid "bad"
+msgstr "Somewhat Interesting"
+
+#: includes/core/functions.php:794
+msgid "poor"
+msgstr "Intriguing"
+
+#: includes/core/functions.php:795
+msgid "regular"
+msgstr "Very Curious"
+
+#: includes/core/functions.php:796
+msgid "good"
+msgstr "Drop Everything Else"
+
+#: includes/core/functions.php:797
+msgid "gorgeous"
+msgstr "Bursting with Curiosity"
+
+#: includes/core/functions.php:1163
+msgctxt "ideas tag cloud count text"
+msgid "%s idea"
+msgid_plural "%s ideas"
+msgstr[0] "%s inquiry question"
+msgstr[1] "%s inquiry questions"
+
+#: includes/core/functions.php:1320
+msgctxt "Admin bar menu"
+msgid "IdeaStream"
+msgstr "InquiryStream"
+
+#: includes/core/template-functions.php:744
+msgid "Add new"
+msgstr ""
+
+#: includes/core/template-functions.php:755
+#: includes/core/template-functions.php:817
+msgid "%s&#39;s profile"
+msgstr ""
+
+#: includes/core/template-functions.php:770
+#: includes/core/template-functions.php:832
+msgid "Create an account"
+msgstr ""
+
+#: includes/core/template-functions.php:813 includes/core/widgets.php:83
+msgid "New idea"
+msgstr "New Inquiry Question"
+
+#: includes/core/template-functions.php:815
+msgid "Edit idea"
+msgstr "Edit Inquiry Question"
+
+#: includes/core/upgrade.php:147
+msgid "Please take a few minutes to read the WP Idea Stream %s page: version 2.0.0 introduced some new features and stopped supporting some others."
+msgstr ""
+
+#: includes/core/upgrade.php:160
+msgid "For instance, having the ideas directly on your site&#39;s front page is no more supported in 2.0.0, sorry."
+msgstr ""
+
+#: includes/core/widgets.php:38
+msgid "Add IdeaStream&#39;s nav to your sidebar."
+msgstr "Add InquiryStream&#39;s nav to your sidebar."
+
+#: includes/core/widgets.php:39
+msgid "IdeaStream Nav"
+msgstr "InquiryStream Nav"
+
+#: includes/core/widgets.php:90
+msgid "My profile"
+msgstr ""
+
+#: includes/core/widgets.php:221 includes/ideas/widgets.php:121
+#: includes/ideas/widgets.php:335 includes/users/widgets.php:194
+msgid "Title:"
+msgstr ""
+
+#: includes/ideas/classes.php:669
+msgid "Custom fields"
+msgstr ""
+
+#: includes/ideas/classes.php:693
+msgid "No custom fields available"
+msgstr ""
+
+#: includes/ideas/functions.php:873
+msgid "Saving your rating, please wait"
+msgstr "Saving your curiosity level, please wait"
+
+#: includes/ideas/functions.php:874
+msgid "Thanks, the average rating is now:"
+msgstr "Thanks, the average curiosity level is now:"
+
+#: includes/ideas/functions.php:875
+msgid "OOps, something went wrong"
+msgstr "Oops, something went wrong"
+
+#: includes/ideas/functions.php:878
+msgid "One rate"
+msgstr ""
+
+#: includes/ideas/functions.php:879
+msgid "% rates"
+msgstr ""
+
+#: includes/ideas/functions.php:907
+msgid "Duplicate tag:"
+msgstr ""
+
+#: includes/ideas/functions.php:908
+msgid "Forbidden character:"
+msgstr ""
+
+#: includes/ideas/functions.php:909
+msgid "Forbidden word:"
+msgstr ""
+
+#: includes/ideas/functions.php:918
+msgid "An admin is currently editing this idea, please try to edit your idea later."
+msgstr "An admin is currently editing this inquiry question, please try to edit your question again later."
+
+#: includes/ideas/functions.php:973
+msgid "Latest"
+msgstr ""
+
+#: includes/ideas/functions.php:974
+msgid "Most commented"
+msgstr "Most comments"
+
+#: includes/ideas/functions.php:979
+msgid "Best rated"
+msgstr "Highest curiosity level"
+
+#: includes/ideas/functions.php:1089
+msgid "You are not allowed to publish ideas"
+msgstr "You are not permitted to publish inquiry questions"
+
+#: includes/ideas/functions.php:1104 includes/ideas/functions.php:1241
+msgid "Title and description are required fields."
+msgstr ""
+
+#: includes/ideas/functions.php:1117
+msgid "Something went wrong while trying to save your idea."
+msgstr "Something went wrong while trying to save your inquiry question."
+
+#: includes/ideas/functions.php:1128
+msgid "Your idea is currently awaiting moderation."
+msgstr "Your inquiry question is currently awaiting moderation."
+
+#: includes/ideas/functions.php:1212
+msgid "The idea you are trying to edit does not seem to exist."
+msgstr "The inquiry question you are trying to edit does not seem to exist."
+
+#: includes/ideas/functions.php:1258
+msgid "Something went wrong while trying to update your idea."
+msgstr "Something went wrong while trying to update your inquiry question."
+
+#: includes/ideas/tags.php:56
+msgid "Search"
+msgstr ""
+
+#: includes/ideas/tags.php:140
+msgid "Sort"
+msgstr ""
+
+#: includes/ideas/tags.php:343
+msgid "It looks like no idea has been submitted yet, please sign in or sign up to add yours!"
+msgstr "It looks like no inquiry questions have been submitted yet, please sign in to add yours!"
+
+#: includes/ideas/tags.php:349
+msgid "It looks like %s has not submitted any idea yet"
+msgstr "It looks like %s has not submitted any inquiry questions yet"
+
+#: includes/ideas/tags.php:355
+msgid "It looks like %s has not rated any idea yet"
+msgstr "It looks like %s is not curious about any of the existing inquiry questions"
+
+#: includes/ideas/tags.php:361
+msgid "It looks like no idea has been published in this category yet"
+msgstr "It looks like no inquiry questions have been published in this category yet"
+
+#: includes/ideas/tags.php:364
+msgid "It looks like no idea has been marked with this tag yet"
+msgstr "It looks like no inquiry questions have been marked with this tag yet"
+
+#: includes/ideas/tags.php:367 includes/ideas/tags.php:370
+msgid "It looks like no idea match your search terms."
+msgstr "It looks like no inquiry questions match your search terms."
+
+#: includes/ideas/tags.php:373
+msgid "It looks like no idea has been rated yet."
+msgstr "It looks like no one has identified questions they are curious about."
+
+#: includes/ideas/tags.php:377
+msgid "It looks like no idea has been submitted yet, <a href=\"%s\" title=\"Submit your idea\">add yours</a>"
+msgstr "It looks like no inquiry questions have been submitted yet, <a href=\"%s\" title=\"Submit your Inquiry Question”>add yours</a>"
+
+#: includes/ideas/tags.php:420
+msgid "Viewing %1$s to %2$s (of %3$s ideas)"
+msgid_plural "Viewing %1$s to %2$s (of %3$s ideas)"
+msgstr[0] "Viewing %1$s to %2$s (of %3$s inquiry questions)"
+msgstr[1] "Viewing %1$s to %2$s (of %3$s inquiry questions)"
+
+#: includes/ideas/tags.php:867
+msgid "No Comments"
+msgstr ""
+
+#: includes/ideas/tags.php:870
+msgid "1 Comment"
+msgstr ""
+
+#: includes/ideas/tags.php:873
+msgid "% Comments"
+msgstr ""
+
+#: includes/ideas/tags.php:876
+msgid "Comments Off"
+msgstr ""
+
+#: includes/ideas/tags.php:883
+msgctxt "idea protected comments message"
+msgid "Comments are protected."
+msgstr ""
+
+#: includes/ideas/tags.php:886
+msgctxt "idea private comments message"
+msgid "Comments are private."
+msgstr ""
+
+#: includes/ideas/tags.php:900
+msgid "Comment on %s"
+msgstr ""
+
+#: includes/ideas/tags.php:1040 templates/idea-header.php:13
+msgid "Average rate: %"
+msgstr "Curiosity Level: %"
+
+#: includes/ideas/tags.php:1048
+msgid "Rate %s"
+msgstr ""
+
+#: includes/ideas/tags.php:1052
+msgctxt "idea rating not logged in message"
+msgid "Please, log in to rate."
+msgstr "Please, log in to express your curiosity."
+
+#: includes/ideas/tags.php:1118 includes/ideas/tags.php:1175
+msgid "This idea is password protected, you will need it to view its content."
+msgstr "This inquiry question is password protected. You will need the password in order to view the content."
+
+#: includes/ideas/tags.php:1122 includes/ideas/tags.php:1179
+msgid "This idea is private, you cannot view its content."
+msgstr "This inquiry question is private. You are not allowed to view this content."
+
+#: includes/ideas/tags.php:1321
+msgid "This idea"
+msgstr "This inquiry question"
+
+#: includes/ideas/tags.php:1327
+msgctxt "idea categories comma separated list"
+msgid "was posted in %s"
+msgstr ""
+
+#: includes/ideas/tags.php:1333
+msgctxt "idea tags join words"
+msgid "and tagged"
+msgstr ""
+
+#: includes/ideas/tags.php:1336
+msgctxt "idea tags join words no category"
+msgid "was tagged"
+msgstr ""
+
+#: includes/ideas/tags.php:1339
+msgctxt "idea tags comma separated list"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/ideas/tags.php:1343
+msgctxt "idea footer empty tags and categories"
+msgid "was posted"
+msgstr ""
+
+#: includes/ideas/tags.php:1350
+msgctxt "idea date of publication point"
+msgid "on %s."
+msgstr ""
+
+#: includes/ideas/tags.php:1354
+msgctxt "idea date of publication no point"
+msgid "on %s"
+msgstr ""
+
+#: includes/ideas/tags.php:1360
+msgctxt "single idea author link"
+msgid "by %s."
+msgstr ""
+
+#: includes/ideas/tags.php:1404
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: includes/ideas/tags.php:1406
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: includes/ideas/tags.php:1430
+msgid "You are not allowed to submit ideas"
+msgstr "You are not allowed to submit inquiry questions"
+
+#: includes/ideas/tags.php:1436
+msgid "Please <a href=\"%s\" title=\"Log in\">log in</a> or <a href=\"%s\" title=\"Sign up\">register</a> to this site to submit an idea."
+msgstr "Please <a href=\"%s\" title=\"Log in\">log in</a> or <a href=\"%s\" title=\"Sign up\">register</a> to this site to submit an inquiry question."
+
+#: includes/ideas/tags.php:1442
+msgid "Please <a href=\"%s\" title=\"Log in\">log in</a> to this site to submit an idea."
+msgstr "Please <a href=\"%s\" title=\"Log in\">log in</a> to this site to submit an inquiry question."
+
+#: includes/ideas/tags.php:1475
+msgid "Title"
+msgstr ""
+
+#: includes/ideas/tags.php:1546
+msgid "Description"
+msgstr ""
+
+#: includes/ideas/tags.php:1648
+msgid "Categories"
+msgstr ""
+
+#: includes/ideas/tags.php:1690
+msgid "No categories are available."
+msgstr ""
+
+#: includes/ideas/tags.php:1738
+msgid "Tags"
+msgstr ""
+
+#: includes/ideas/tags.php:1739
+msgid "Type your tag, then hit the return or space key to add it"
+msgstr ""
+
+#: includes/ideas/tags.php:1811
+msgid "Choose the most used tag"
+msgid_plural "Choose from the %d most used tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/ideas/tags.php:1899 includes/users/tags.php:322
+msgid "Reset"
+msgstr ""
+
+#: includes/ideas/tags.php:1900
+msgid "Submit"
+msgstr ""
+
+#: includes/ideas/tags.php:1905
+msgid "Update"
+msgstr ""
+
+#: includes/ideas/widgets.php:43
+msgid "A list of Idea categories"
+msgstr "A list of inquiry question categories"
+
+#: includes/ideas/widgets.php:44
+msgid "IdeaStream categories"
+msgstr "InquiryStream categories"
+
+#: includes/ideas/widgets.php:127
+msgid "Show idea counts"
+msgstr "Show Inquiry Question counts"
+
+#: includes/ideas/widgets.php:163
+msgid "List the most popular ideas"
+msgstr "List the most popular inquiry questions"
+
+#: includes/ideas/widgets.php:164
+msgid "IdeaStream Pops"
+msgstr "InquiryStream Pops"
+
+#: includes/ideas/widgets.php:340
+msgid "Type:"
+msgstr ""
+
+#: includes/ideas/widgets.php:353
+msgid "Number of ideas to show:"
+msgstr "Number of inquiry questions to show:"
+
+#: includes/users/functions.php:510
+msgid "Published"
+msgstr ""
+
+#: includes/users/functions.php:513
+msgctxt "user ideas profile slug for BuddyPress use"
+msgid "ideas"
+msgstr "Inquiry questions"
+
+#: includes/users/functions.php:516
+msgid "Commented"
+msgstr ""
+
+#: includes/users/functions.php:525
+msgid "Rated"
+msgstr "Curious"
+
+#: includes/users/functions.php:596
+msgid "Please, enter some content in your description"
+msgstr "Please tell us a bit more about yourself."
+
+#: includes/users/functions.php:609
+msgid "Something went wrong while trying to update your description."
+msgstr ""
+
+#: includes/users/functions.php:617
+msgid "Description updated."
+msgstr ""
+
+#: includes/users/functions.php:839
+msgid "Please choose a login having at least 4 characters."
+msgstr ""
+
+#: includes/users/functions.php:873
+msgid "Please fill all required fields."
+msgstr ""
+
+#: includes/users/functions.php:949
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: includes/users/functions.php:963
+msgid "Username"
+msgstr ""
+
+#: includes/users/functions.php:964
+msgid "E-mail"
+msgstr ""
+
+#: includes/users/tags.php:147
+msgid "%s has not created his description yet"
+msgstr "%s has not created a description yet"
+
+#: includes/users/tags.php:150
+msgid "Replace this text with your description, then hit the Edit button to save it."
+msgstr ""
+
+#: includes/users/tags.php:197
+msgctxt "User profile description edit"
+msgid "Edit"
+msgstr ""
+
+#: includes/users/tags.php:269
+msgid "rated 1 star"
+msgid_plural "rated %s stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/users/tags.php:323
+msgid "Sign-up"
+msgstr ""
+
+#: includes/users/widgets.php:41
+msgid "List the top idea contributors"
+msgstr "List the top inquiry question contributors"
+
+#: includes/users/widgets.php:42
+msgid "IdeaStream Tops"
+msgstr "InquiryStream Tops"
+
+#: includes/users/widgets.php:199
+msgid "Number of users to show:"
+msgstr ""
+
+#: templates/idea-header.php:12
+msgid "Leave a reply"
+msgstr ""
+
+#: templates/idea-header.php:12
+msgid "1 Reply"
+msgstr ""
+
+#: templates/idea-header.php:12
+msgid "% Replies"
+msgstr ""
+
+#: templates/idea-header.php:13
+msgid "Rate the idea"
+msgstr "Are you curious as well?"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Idea Stream"
+msgstr "WP Inquiry Stream"
+
+#. Plugin URI of the plugin/theme
+msgid "http://imathi.eu/tag/ideastream/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Share ideas, great ones will rise to the top!"
+msgstr "Share inquiry questions, great ones will rise to the top!"
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://imathi.eu/"
+msgstr ""
