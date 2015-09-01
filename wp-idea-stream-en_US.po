@@ -1318,6 +1318,66 @@ msgctxt "Admin bar menu"
 msgid "IdeaStream"
 msgstr "InquiryStream"
 
+#: includes/core/options.php:57 includes/core/options.php:325
+msgctxt "default root slug"
+msgid "ideastream"
+msgstr "inquirystream"
+
+#: includes/core/options.php:58 includes/core/options.php:363
+msgctxt "default idea slug"
+msgid "idea"
+msgstr "inquiry"
+
+#: includes/core/options.php:59 includes/core/options.php:401
+msgctxt "default category slug"
+msgid "category"
+msgstr ""
+
+#: includes/core/options.php:60 includes/core/options.php:439
+msgctxt "default tag slug"
+msgid "tag"
+msgstr ""
+
+#: includes/core/options.php:61 includes/core/options.php:477
+msgctxt "default user slug"
+msgid "user"
+msgstr ""
+
+#: includes/core/options.php:62 includes/core/options.php:519
+msgctxt "default comments slug"
+msgid "comments"
+msgstr ""
+
+#: includes/core/options.php:63 includes/core/options.php:498
+msgctxt "default rates slug"
+msgid "rates"
+msgstr "ratings"
+
+#: includes/core/options.php:64 includes/core/options.php:620
+msgctxt "default sign-up action slug"
+msgid "sign-up"
+msgstr ""
+
+#: includes/core/options.php:65 includes/core/options.php:557
+msgctxt "default action slug"
+msgid "action"
+msgstr ""
+
+#: includes/core/options.php:66 includes/core/options.php:578
+msgctxt "default add idea action slug"
+msgid "add"
+msgstr ""
+
+#: includes/core/options.php:67 includes/core/options.php:599
+msgctxt "default edit idea action slug"
+msgid "edit"
+msgstr ""
+
+#: includes/core/options.php:68 includes/core/options.php:641
+msgctxt "default comments pagination slug"
+msgid "cpage"
+msgstr ""
+
 #: includes/core/template-functions.php:744
 msgid "Add new"
 msgstr ""
