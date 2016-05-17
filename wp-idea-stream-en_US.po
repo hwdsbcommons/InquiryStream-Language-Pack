@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WP Idea Stream 2.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-idea-stream\n"
 "POT-Creation-Date: 2016-05-16 22:40-0400\n"
-"PO-Revision-Date: 2016-05-16 23:21-0400\n"
+"PO-Revision-Date: 2016-05-16 23:43-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: includes/admin/admin.php:269 includes/admin/admin.php:270
 #: includes/admin/admin.php:1783
 msgid "Settings"
-msgstr "Folder settings were successfully updated."
+msgstr "Settings"
 
 #: includes/admin/admin.php:301 includes/admin/admin.php:302
 #: includes/admin/admin.php:309 includes/admin/admin.php:310
@@ -2099,7 +2099,7 @@ msgid ""
 "your idea\">add yours</a>"
 msgstr ""
 "It looks like no inquiry questions have been submitted yet, <a href=\"%s\" "
-"title=\"Submit your question">add yours</a>"
+"title=\"Submit your inquiry question\">add yours</a>"
 
 #: includes/ideas/tags.php:420
 msgid "Viewing %1$s to %2$s (of %3$s ideas)"
