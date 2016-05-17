@@ -2099,7 +2099,7 @@ msgid ""
 "your idea\">add yours</a>"
 msgstr ""
 "It looks like no inquiry questions have been submitted yet, <a href=\"%s\" "
-"title=\"Submit your question”>add yours</a>"
+"title=\"Submit your question">add yours</a>"
 
 #: includes/ideas/tags.php:420
 msgid "Viewing %1$s to %2$s (of %3$s ideas)"
